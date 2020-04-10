@@ -1,0 +1,35 @@
+.about {
+  text-align: left;
+  p {
+    text-align: left;
+  }
+  //   a {
+  //     text-align: left;
+  //   }
+  img {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+code {
+  text-align: left;
+}
+
+// Custom css for wrapping images + text (see imagewithtext.html and shortcode in about.md)
+section {
+  margin: auto;
+  padding-top: 10px;
+}
+div#sectionleft {
+  float: left;
+  margin-right: 30px;
+}
+div#sectionright {
+  margin: auto;
+  text-align: left;
+  @include size(h3);
+}
